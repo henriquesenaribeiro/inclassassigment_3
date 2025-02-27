@@ -7,3 +7,16 @@ textInput.addEventListener('keyup',(event)=>{
   }
 }
     
+let form = document.getElementById("getform");
+let error = document.getElementById("error");
+
+form.addEventListener("submit", (event)=>{
+  let productId = document.getElementById("productId").value;
+  if (productId ==="") {
+    error.textContent = "Product Id cannot be blank"
+    event.preventDefault();
+  } else {
+    error.textContent = "SUCESS";
+    event.preventDefault()
+  }
+}
