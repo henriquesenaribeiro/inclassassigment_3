@@ -1,1 +1,3 @@
-# inclassassigment_3
+# Hi
+
+This is my in class assigment 3
